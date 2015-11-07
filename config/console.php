@@ -10,6 +10,11 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'controllerNamespace' => 'app\commands',
+    'modules' => [
+        'user' => [
+            'class' => 'sheillendra\user\Module'
+        ]
+    ],
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',
@@ -23,6 +28,12 @@ $config = [
             ],
         ],
         'db' => $db,
+        'authManager' => [
+            'class' => 'yii\rbac\DbManager',
+        ],
+        'user' => [
+            'class' => 'sheillendra\user\components\User',
+        ],
     ],
     'params' => $params,
     /*
@@ -32,6 +43,7 @@ $config = [
         ],
     ],
     */
+    
 ];
 
 if (YII_ENV_DEV) {

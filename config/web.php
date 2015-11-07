@@ -6,17 +6,21 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'modules' => [
+        'user' => [
+            'class' => 'sheillendra\user\Module'
+        ]
+    ],
     'components' => [
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
-            'cookieValidationKey' => '',
+            'cookieValidationKey' => 'baseui-master',
         ],
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
         'user' => [
-            'identityClass' => 'app\models\User',
-            'enableAutoLogin' => true,
+            'class' => 'sheillendra\user\components\User',
         ],
         'errorHandler' => [
             'errorAction' => 'site/error',
@@ -38,14 +42,25 @@ $config = [
             ],
         ],
         'db' => require(__DIR__ . '/db.php'),
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => [
+            'rules' => [],
+        ],
+        'view' => [
+            'theme' => [
+                'class' => 'sheillendra\theme\components\Theme',
+                'active' => 'easyui',
+                'pathMap' => [
+                    'easyui' => [
+                        '@app/views' => ['@app/themes/easyui/views']
+                    ]
+                ],
             ],
         ],
-        */
+        'authManager' => [
+            'class' => 'yii\rbac\DbManager',
+        ]
     ],
     'params' => $params,
 ];
