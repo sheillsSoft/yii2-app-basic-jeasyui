@@ -2,7 +2,7 @@
 
 use app\themes\easyui\assets\AppAsset;
 use yii\helpers\Html;
-use app\components\helpers\Regex;
+use sheillendra\helpers\Regex;
 use yii\helpers\Url;
 use yii\helpers\Json;
 

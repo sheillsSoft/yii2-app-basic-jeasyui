@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f3fd53bdb5eeba0fe8b5a7d50cd034b5",
-    "content-hash": "13930910e7f2747daacd9fc9a6bac023",
+    "hash": "c7b19253a2caea285ac4ed1f91395343",
+    "content-hash": "dae889f08ce7195564aaf2a42d5fbf98",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -349,6 +349,45 @@
             "time": "2013-11-30 08:25:19"
         },
         {
+            "name": "sheillendra/yii2-helpers",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sheillendra/yii2-helpers.git",
+                "reference": "47a658ca914fa79f21a358b51794686015b9a63c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sheillendra/yii2-helpers/zipball/47a658ca914fa79f21a358b51794686015b9a63c",
+                "reference": "47a658ca914fa79f21a358b51794686015b9a63c",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sheillendra\\helpers\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sheillendra",
+                    "email": "sheillendra@yahoo.com"
+                }
+            ],
+            "description": "Collection of custom helpers for Yii2",
+            "keywords": [
+                "helper",
+                "sheillendra",
+                "yii",
+                "yii2"
+            ],
+            "time": "2015-11-11 04:05:40"
+        },
+        {
             "name": "sheillendra/yii2-jeasyui",
             "version": "dev-master",
             "source": {
@@ -439,15 +478,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheillendra/yii2-user.git",
-                "reference": "c8f8ae2e271867c4299f54c5aa79cd4167705608"
+                "reference": "0dfbf025795623cdbc99b213f668ea1af87aab6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/c8f8ae2e271867c4299f54c5aa79cd4167705608",
-                "reference": "c8f8ae2e271867c4299f54c5aa79cd4167705608",
+                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/0dfbf025795623cdbc99b213f668ea1af87aab6a",
+                "reference": "0dfbf025795623cdbc99b213f668ea1af87aab6a",
                 "shasum": ""
             },
             "require": {
+                "sheillendra/yii2-helpers": "*",
                 "sheillendra/yii2-theme": "*",
                 "yiisoft/yii2": "*"
             },
@@ -475,7 +515,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2015-11-09 02:56:57"
+            "time": "2015-11-11 04:45:13"
         },
         {
             "name": "swiftmailer/swiftmailer",
