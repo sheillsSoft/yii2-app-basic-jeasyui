@@ -140,16 +140,16 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.2.2",
+            "version": "3.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
-                "reference": "ebceb88a131e1fbc159733a88a6778ffc02debab"
+                "reference": "85b94d8c8158d610b148317608bf67b678b40659"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/ebceb88a131e1fbc159733a88a6778ffc02debab",
-                "reference": "ebceb88a131e1fbc159733a88a6778ffc02debab",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/85b94d8c8158d610b148317608bf67b678b40659",
+                "reference": "85b94d8c8158d610b148317608bf67b678b40659",
                 "shasum": ""
             },
             "require": {
@@ -158,33 +158,12 @@
             "type": "bower-asset-library",
             "extra": {
                 "bower-asset-main": [
-                    "./dist/inputmask/inputmask.dependencyLib.jquery.js",
-                    "./dist/inputmask/inputmask.js",
-                    "./dist/inputmask/inputmask.extensions.js",
-                    "./dist/inputmask/inputmask.date.extensions.js",
-                    "./dist/inputmask/inputmask.numeric.extensions.js",
-                    "./dist/inputmask/inputmask.phone.extensions.js",
-                    "./dist/inputmask/inputmask.regex.extensions.js",
-                    "./dist/inputmask/jquery.inputmask.js",
-                    "./dist/jquery.inputmask.bundle.js",
-                    "./extra/dependencyLibs/inputmask.dependencyLib.jqlite.js",
-                    "./extra/dependencyLibs/inputmask.dependencyLib.js",
-                    "./extra/phone-codes/phone-be.js",
-                    "./extra/phone-codes/phone-codes.js",
-                    "./extra/phone-codes/phone-nl.js",
-                    "./extra/phone-codes/phone-ru.js",
-                    "./extra/phone-codes/phone-uk.js"
+                    "./dist/inputmask/inputmask.js"
                 ],
                 "bower-asset-ignore": [
-                    "**/.*",
-                    "qunit/",
-                    "nuget/",
-                    "tools/",
-                    "js/",
-                    "*.md",
-                    "build.properties",
-                    "build.xml",
-                    "jquery.inputmask.jquery.json"
+                    "*",
+                    "!dist/*",
+                    "!extra/*"
                 ]
             },
             "license": [
@@ -375,12 +354,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheillendra/yii2-jeasyui.git",
-                "reference": "8c3a1b2653109bb6310ec4c5612285000592f908"
+                "reference": "d5c3d13e67f0e8168df334f979ab1ff6aed5d348"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheillendra/yii2-jeasyui/zipball/8c3a1b2653109bb6310ec4c5612285000592f908",
-                "reference": "8c3a1b2653109bb6310ec4c5612285000592f908",
+                "url": "https://api.github.com/repos/sheillendra/yii2-jeasyui/zipball/d5c3d13e67f0e8168df334f979ab1ff6aed5d348",
+                "reference": "d5c3d13e67f0e8168df334f979ab1ff6aed5d348",
                 "shasum": ""
             },
             "require": {
@@ -412,7 +391,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2015-10-26 02:43:48"
+            "time": "2015-11-09 05:40:11"
         },
         {
             "name": "sheillendra/yii2-theme",
@@ -460,12 +439,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sheillendra/yii2-user.git",
-                "reference": "2c1f95367e6ceb2052ab59572ae772d7b0a48948"
+                "reference": "c8f8ae2e271867c4299f54c5aa79cd4167705608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/2c1f95367e6ceb2052ab59572ae772d7b0a48948",
-                "reference": "2c1f95367e6ceb2052ab59572ae772d7b0a48948",
+                "url": "https://api.github.com/repos/sheillendra/yii2-user/zipball/c8f8ae2e271867c4299f54c5aa79cd4167705608",
+                "reference": "c8f8ae2e271867c4299f54c5aa79cd4167705608",
                 "shasum": ""
             },
             "require": {
@@ -496,7 +475,7 @@
                 "yii",
                 "yii2"
             ],
-            "time": "2015-11-07 19:07:31"
+            "time": "2015-11-09 02:56:57"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -557,12 +536,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "7f2fe7317a11e8fb2c1b414f6e11cdb35b9e44d5"
+                "reference": "87d209b35dd18dcfa40b782753b106570e2dede7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7f2fe7317a11e8fb2c1b414f6e11cdb35b9e44d5",
-                "reference": "7f2fe7317a11e8fb2c1b414f6e11cdb35b9e44d5",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/87d209b35dd18dcfa40b782753b106570e2dede7",
+                "reference": "87d209b35dd18dcfa40b782753b106570e2dede7",
                 "shasum": ""
             },
             "require": {
@@ -638,7 +617,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2015-11-07 15:59:24"
+            "time": "2015-11-09 17:22:51"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -822,12 +801,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "5a91b2475cd9a7a41d02615232eb4d1f18d4ae2c"
+                "reference": "cd5fb1c262e1734366e77688b011a0f0422ce06d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/5a91b2475cd9a7a41d02615232eb4d1f18d4ae2c",
-                "reference": "5a91b2475cd9a7a41d02615232eb4d1f18d4ae2c",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/cd5fb1c262e1734366e77688b011a0f0422ce06d",
+                "reference": "cd5fb1c262e1734366e77688b011a0f0422ce06d",
                 "shasum": ""
             },
             "require": {
@@ -864,7 +843,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-11-04 14:05:31"
+            "time": "2015-11-09 08:00:48"
         },
         {
             "name": "phpspec/php-diff",
@@ -998,12 +977,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-faker.git",
-                "reference": "6968c97fd2e951e8260d1ccc6f5e2109407290eb"
+                "reference": "e57895f8f3f8307229f5024b993fe59c4dde7541"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/6968c97fd2e951e8260d1ccc6f5e2109407290eb",
-                "reference": "6968c97fd2e951e8260d1ccc6f5e2109407290eb",
+                "url": "https://api.github.com/repos/yiisoft/yii2-faker/zipball/e57895f8f3f8307229f5024b993fe59c4dde7541",
+                "reference": "e57895f8f3f8307229f5024b993fe59c4dde7541",
                 "shasum": ""
             },
             "require": {
@@ -1037,7 +1016,7 @@
                 "faker",
                 "yii2"
             ],
-            "time": "2015-09-29 10:49:25"
+            "time": "2015-11-10 09:57:48"
         },
         {
             "name": "yiisoft/yii2-gii",
