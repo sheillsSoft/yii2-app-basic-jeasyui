@@ -53,7 +53,7 @@ $config = [
                 'active' => 'easyui',
                 'pathMap' => [
                     'easyui' => [
-                        '@app/views' => ['@app/themes/easyui/views']
+                        '@app/views' => ['@sheillendra/jeasyui/themes/views']
                     ]
                 ],
             ],
