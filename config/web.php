@@ -20,6 +20,9 @@ $config = [
         'cache' => [
             'class' => 'yii\caching\FileCache',
         ],
+        'formatter' => [
+            'defaultTimeZone' => 'Asia/Jakarta',
+        ],
         'user' => [
             'class' => 'sheillendra\user\components\User',
         ],
