@@ -60,7 +60,8 @@ $config = [
         ],
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
-        ]
+        ],
+        'timeZone' => 'Asia/Jakarta',
     ],
     'params' => $params,
 ];
