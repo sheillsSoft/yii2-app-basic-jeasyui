@@ -6,6 +6,7 @@ $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
+    'timeZone' => 'Asia/Jakarta',
     'modules' => [
         'user' => [
             'class' => 'sheillendra\user\Module'
@@ -61,7 +62,6 @@ $config = [
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
         ],
-        'timeZone' => 'Asia/Jakarta',
     ],
     'params' => $params,
 ];
