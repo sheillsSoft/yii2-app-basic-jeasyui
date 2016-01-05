@@ -65,6 +65,16 @@ $config = [
         'authManager' => [
             'class' => 'yii\rbac\DbManager',
         ],
+        'assetManager' => [
+            'class' => 'yii\web\AssetManager',
+            'bundles' => [
+                'yii\web\JqueryAsset' => [
+                    'js' => [
+                        YII_ENV_DEV ? 'jquery.js' : 'jquery.min.js'
+                    ]
+                ]
+            ],
+        ],
     ],
     'params' => $params,
 ];
